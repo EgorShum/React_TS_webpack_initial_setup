@@ -1,5 +1,5 @@
-import React from 'react';
+import React, { FC } from 'react';
 import '../styles/Main.css';
-export const Main = () => {
-  return <div className='Main-container'>Main</div>
-}
+export const Main: FC = () => {
+  return <div className="Main-container">Main</div>;
+};

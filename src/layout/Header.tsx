@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { FC } from 'react';
 import '../styles/Header.css';
 
-export const Header = () => {
-  return <div className='Header-container'>Header</div>
-}
+export const Header: FC = () => {
+  return <div className="Header-container">Header</div>;
+};

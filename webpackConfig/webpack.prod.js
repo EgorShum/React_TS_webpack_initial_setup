@@ -11,7 +11,7 @@ module.exports = merge(common, {
   devtool: false,
   output: {
     filename: 'bundle.[contenthash].js',
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, '..' , 'build'),
   },
   optimization: {
     minimizer: [

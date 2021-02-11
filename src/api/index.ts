@@ -5,7 +5,7 @@ const oxfordApi = axios.create({
   headers: {
     app_id: process.env.OXFORD_ID,
     app_key: process.env.OXFORD_KEY,
-  }
+  },
 });
 // export const setToken = (token) => {
 //   if (token) {
