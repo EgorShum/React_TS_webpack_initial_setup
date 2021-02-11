@@ -1,0 +1,12 @@
+.Sidebar-container {
+  padding: 10px;
+  grid-area: sidebar;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+.Sidebar-container_checkboxes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
